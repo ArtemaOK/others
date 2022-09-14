@@ -6,5 +6,5 @@ while (count < 31) {
     x = x.replaceAll(`Hoja${count}`, `Hoja${count + 1}`);
     count += 1;
     y = y + x;
-}
+};
 y.slice(0, -1);
