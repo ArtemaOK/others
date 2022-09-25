@@ -17,5 +17,6 @@ while (count < 1000) {
 for (const value of list) {
     object[value] = object[value] += 1;
 }
-// La siguiente línea muestra la cantidad de positivos y negativos que surgen de la prueba.
-console.log(object)
+// Las siguientes líneas muestran la cantidad de positivos y negativos que surgen de la prueba.
+console.log('POSITIVE:', object.POSITIVE);
+console.log('NEGATIVE:', object.NEGATIVE);
