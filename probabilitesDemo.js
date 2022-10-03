@@ -3,8 +3,9 @@ let count = 0;
 let number = 0;
 let list = [];
 let object = { POSITIVE: 0, NEGATIVE: 0 };
-// The number below specifies the amount of tests. 
-while (count < 1000) {
+// Change the number below with the amount of tests you want. 
+let testAmount = 1000;
+while (count < testAmount) {
     number = Math.floor(Math.random() * 100) + 1;
     // The number below specifies the theorical probability (between 1 y 100) of a NEGATIVE.
     if (number > 99) {
@@ -14,8 +15,8 @@ while (count < 1000) {
     }
     count += 1;
 }
-for (const value of list) {
-    object[value] = object[value] += 1;
+for (const result of list) {
+    object[result] = object[result] += 1;
 }
 // The next lines show the amount of POSITIVEs and NEGATIVEs.
 console.log('POSITIVE:', object.POSITIVE);
