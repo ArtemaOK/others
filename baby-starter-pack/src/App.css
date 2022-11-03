@@ -1,9 +1,9 @@
 html {
-  background-color: #ffa69e;
+  background-color: #FFA9A3;
 }
 
 .navbar {
-  background-color: #DDFFF7;
+  background-color: #B9E6FF;
   font-family: Knewave, sans-serif;
 }
 
@@ -15,5 +15,12 @@ html {
   max-height: 40px;
 }
 
+.section {
+  height: 95vh;
+}
 
-/* #93E1D8 #AA4465 #462255 */
+.footer {
+  height: 40vh;
+}
+
+/* #7E6C6C #F87575 #5C95FF */
