@@ -11,5 +11,9 @@ html {
   padding-right: 15px;
 }
 
+.img-fluid {
+  max-height: 40px;
+}
+
 
 /* #93E1D8 #AA4465 #462255 */
