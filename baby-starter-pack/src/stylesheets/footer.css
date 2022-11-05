@@ -1,3 +1,7 @@
 .footer {
     height: 30vh;
 }
+
+.footer-icons {
+    padding: 0 15px;
+}
