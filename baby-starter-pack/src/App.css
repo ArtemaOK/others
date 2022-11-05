@@ -1,26 +1,5 @@
-html {
-  background-color: #FFA9A3;
-}
-
-.navbar {
-  background-color: #B9E6FF;
-  font-family: Knewave, sans-serif;
-}
-
-.fa-baby-carriage {
-  padding-right: 15px;
-}
-
-.img-fluid {
-  max-height: 40px;
-}
-
-.section {
-  height: 95vh;
-}
-
-.footer {
-  height: 40vh;
+body {
+  overscroll-behavior-y: none;
 }
 
 /* #7E6C6C #F87575 #5C95FF */

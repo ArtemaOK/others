@@ -5,11 +5,11 @@ function Navbar() {
         <nav className="navbar navbar-expand-sm border-bottom border-dark sticky-top">
             <div className="container">
                 <div className="justify-content-start col-xs-12 col-md-4">
-                    <i className="fa-solid fa-baby-carriage"></i>
+                    <i className="fa-solid fa-baby-carriage left-logo"></i>
                     <a className="navbar-brand" href="#">Baby Starter Pack</a>
                 </div>
                 <div className="col-md-4">
-                    <img className="img-fluid d-block mx-auto" src={bear} />
+                    <img className="img-fluid d-block mx-auto central-logo" src={bear} />
                 </div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span className="navbar-toggler-icon" />
