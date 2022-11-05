@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-sm border-bottom border-dark sticky-top">
             <div className="container">
-                <div className="justify-content-start col-xs-12 col-md-4">
+                <div className="col-xs-12 col-md-4">
                     <i className="fa-solid fa-baby-carriage left-logo"></i>
                     <a className="navbar-brand" href="#">Baby Starter Pack</a>
                 </div>
